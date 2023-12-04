@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Citation;
 use Illuminate\Support\Facades\Route;
 
 /*
