@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Citation;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\InspireController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,6 +15,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [InspireController::class, 'callCommandInspire']);

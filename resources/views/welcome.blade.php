@@ -12,6 +12,8 @@
 
     </head>
     <body>
-        <h1>Lorem Ipsum</h1>
+        <div>
+            <p>{{ $quote }}</p>
+        </div>
     </body>
 </html>
